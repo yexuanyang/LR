@@ -1,0 +1,175 @@
+3
+E
+T
+F
+7
++
+-
+*
+/
+(
+)
+n
+S->E
+E->E+T
+E->E-T
+E->T
+T->T*F
+T->T/F
+T->F
+F->(E)
+F->n
+quit
+16
+S->.E
+E->.E+T
+E->.E-T
+E->.T
+T->.T*F
+T->.T/F
+T->.F
+F->.(E)
+F->.n
+quit
+S->E.
+E->E.+T
+E->E.-T
+quit
+T->T.*F
+E->T.
+T->T./F
+quit
+T->F.
+quit
+F->(.E)
+E->.E+T
+E->.E-T
+E->.T
+T->.T*F
+T->.T/F
+T->.F
+F->.(E)
+F->.n
+quit
+F->n.
+quit
+E->E+.T
+T->.T*F
+T->.T/F
+T->.F
+F->.(E)
+F->.n
+quit
+E->E-.T
+T->.T*F
+T->.T/F
+T->.F
+F->.(E)
+F->.n
+quit
+T->T*.F
+F->.(E)
+F->.n
+quit
+T->T/.F
+F->.(E)
+F->.n
+quit
+F->(E.)
+E->E.+T
+E->E.-T
+quit
+E->E+T.
+T->T.*F
+T->T./F
+quit
+E->E-T.
+T->T.*F
+T->T./F
+quit
+T->T*F
+quit
+T->T/F.
+quit
+F->(E).
+quit
+0 ( S 4
+0 n S 5
+1 + S 6
+1 - S 7
+1 $ R 1
+2 + R 4
+2 - R 4
+2 * S 8
+2 / S 9
+2 ) R 4
+2 $ R 4
+3 + R 7
+3 - R 7
+3 * R 7
+3 / R 7
+3 ) R 7
+3 $ R 7
+4 n S 5
+5 + R 9
+5 - R 9
+5 * R 9
+5 / R 9
+5 ) R 9
+5 $ R 9
+6 ( S 4
+6 n S 5
+7 ( S 4
+7 n S 5
+8 ( S 4
+8 n S 5
+9 ( S 4
+9 n S 5
+10 + S 6
+10 - S 7
+10 ) S 15
+11 / S 9
+11 * S 8
+11 + R 2
+11 - R 2
+11 ) R 2
+11 $ R 2
+12 + R 3
+12 - R 3
+12 ) R 3
+12 $ R 3
+12 / S 9
+12 * S 8
+13 + R 5
+13 - R 5
+13 * R 5
+13 / R 5
+13 ) R 5
+13 $ R 5
+14 + R 6
+14 - R 6
+14 * R 6
+14 / R 6
+14 ) R 6
+14 $ R 6
+15 + R 8
+15 - R 8
+15 * R 8
+15 / R 8
+15 ) R 8
+15 $ R 8
+0 0 0 0
+0 E 1
+0 T 2
+0 F 3
+4 E 10
+4 T 2
+4 F 3
+6 T 11
+6 F 3
+7 T 12
+7 F 3
+8 F 13
+9 F 14
+0 0 0
+223 - 124 * (2344 / (123 + 88 / 123 - 23) ) + 22
